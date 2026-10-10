@@ -1,0 +1,30 @@
+{
+  "name": "arena-osc",
+  "version": "2.1.9",
+  "description": "Resolume Arena OSC module for Bitfocus Companion",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "build": "node esbuild.config.js",
+    "dev": "node esbuild.config.js --watch",
+    "deploy": "node scripts/deploy.js",
+    "build-deploy": "node esbuild.config.js && node scripts/deploy.js",
+    "package": "node scripts/package-release.js",
+    "release": "node esbuild.config.js && node --test test/*.test.js && node scripts/package-release.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@companion-module/base": "^2.1.2",
+    "companion-module-utils": "^0.5.0",
+    "osc": "^2.4.4",
+    "pngjs": "^7.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.0"
+  },
+  "overrides": {
+    "ws": "^8.21.0",
+    "colord": "^2.9.4"
+  }
+}

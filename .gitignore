@@ -1,0 +1,38 @@
+﻿# Dependencies and generated files
+node_modules/
+/main.js
+/dist/
+/release/
+/github-release/
+*.zip
+*.tgz
+__pycache__/
+*.pyc
+*.log
+/osc_*_results.txt
+
+# Separate third-party projects
+/Arena312/
+/ARENAOriginal/
+
+# Local browser data and tools
+/.edge-companion-test/
+/mcp-bin/
+/lm-studio-mcp.json
+/companion-page7.png
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+.netrc
+credentials*.json
+secrets*.json
+*.sqlite
+*.sqlite3
+*.db

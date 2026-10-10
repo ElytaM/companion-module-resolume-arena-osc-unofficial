@@ -1,0 +1,28 @@
+{
+  "$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+  "type": "connection",
+  "id": "arena-osc",
+  "name": "resolume: arena (only osc)",
+  "shortname": "arena-osc",
+  "description": "Resolume Arena OSC module for Bitfocus Companion. Clip/column triggering, layer opacity, BPM (range-normalized), preset slots, group columns, velocity encoders, loop-hold automation, real-time progress bars with a network-friendly polling toggle, OSC connection diagnostics (ping/jitter), and a Quick Control Panel of bypass-until-activated buttons for paint/mass-delete/diagnostics.",
+  "version": "2.1.9",
+  "license": "MIT",
+  "repository": "",
+  "bugs": "",
+  "maintainers": [
+    {
+      "name": "community"
+    }
+  ],
+  "legacyIds": [],
+  "runtime": {
+    "type": "node22",
+    "api": "nodejs-ipc",
+    "apiVersion": "2.1.0",
+    "entrypoint": "../main.js"
+  },
+  "manufacturer": "Resolume",
+  "products": ["Arena (OSC only)"],
+  "keywords": ["Protocol", "OSC", "Resolume", "Arena", "VJ"],
+  "isPrerelease": false
+}
