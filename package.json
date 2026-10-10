@@ -1,0 +1,21 @@
+{
+  "name": "arena-osc",
+  "version": "1.3.0",
+  "description": "OSC module for Bitfocus Companion with Resolume Arena specific functionality",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "build": "node esbuild.config.js",
+    "dev": "node esbuild.config.js --watch",
+    "deploy": "node scripts/deploy.js",
+    "build-deploy": "node esbuild.config.js && node scripts/deploy.js"
+  },
+  "dependencies": {
+    "@companion-module/base": "^1.13.6",
+    "osc": "^2.4.4"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.0"
+  }
+}

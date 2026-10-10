@@ -1,0 +1,34 @@
+{
+  "id": "arena-osc",
+  "name": "Arena OSC",
+  "shortname": "arena-osc",
+  "description": "OSC module for Resolume Arena with extended controls",
+  "version": "1.3.0",
+  "license": "MIT",
+  "repository": "https://github.com/ElytaM/ARENA-OSC",
+  "bugs": "https://github.com/ElytaM/ARENA-OSC/issues",
+  "maintainers": [
+    {
+      "name": "Custom"
+    }
+  ],
+  "legacyIds": [],
+  "runtime": {
+    "type": "node22",
+    "api": "nodejs-ipc",
+    "apiVersion": "1.13.6",
+    "entrypoint": "../main.js"
+  },
+  "manufacturer": "Custom",
+  "products": [
+    "Resolume Arena"
+  ],
+  "keywords": [
+    "Protocol",
+    "OSC",
+    "Resolume",
+    "Arena",
+    "VJ"
+  ],
+  "isPrerelease": false
+}
