@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OSCShortcutPreset presetId="-469653393" name="ARENA-OSC">
+	<versionInfo name="Resolume Arena" majorVersion="7" minorVersion="25" microVersion="4" revision="3572"/>
+	<ShortcutManager name="OSCShortcutManagerShortcuts">
+		<Shortcut name="Shortcut" uniqueId="1777360183297" paramNodeName="ParamTrigger" behaviour="26" hasCustomOutputPath="0">
+			<ShortcutPath name="InputPath" path="/composition/layers/2/clips/6/select" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/*/clips/*/select" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/2/clips/6/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/*/clips/*/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="432345564227567616" value="0"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1777360183861" paramNodeName="RangedParam[bool]" behaviour="26" hasCustomOutputPath="0">
+			<ShortcutPath name="InputPath" path="/composition/layers/1/bypassed" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/*/bypassed" translationType="1" allowedTranslationTypes="11"/>
+			<RawInputMessage key="432345564227567616" value="0"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1777646791963" paramNodeName="ParamRange" behaviour="26" hasCustomOutputPath="1">
+			<ShortcutPath name="InputPath" path="/composition/audio/volume" translationType="1" allowedTranslationTypes="1"/>
+			<ShortcutPath name="OutputPath" path="/composition/audio/volume" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="432345564227567616" value="0"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1777360184024" paramNodeName="ParamRange" behaviour="26" hasCustomOutputPath="1">
+			<ShortcutPath name="InputPath" path="/composition/speed" translationType="1" allowedTranslationTypes="1"/>
+			<ShortcutPath name="OutputPath" path="/composition/speed" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="432345564227567616" value="0"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1777646791956" paramNodeName="ParamTrigger" behaviour="26" hasCustomOutputPath="0">
+			<ShortcutPath name="InputPath" path="/composition/groups/1/columns/78/select" translationType="1" allowedTranslationTypes="51"/>
+			<ShortcutPath name="OutputPath" path="/composition/groups/*/columns/*/select" translationType="1" allowedTranslationTypes="51"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/groups/1/columns/78/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/groups/*/columns/*/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="432345564227567616" value="0"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1777360184012" paramNodeName="ParamEvent" behaviour="1050" hasCustomOutputPath="0">
+			<ShortcutPath name="InputPath" path="/composition/columns/6/connect" translationType="1" allowedTranslationTypes="35"/>
+			<ShortcutPath name="OutputPath" path="/composition/columns/*/connect" translationType="1" allowedTranslationTypes="35"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/columns/6/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/columns/*/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="432345564227567616" value="0"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1777360184018" paramNodeName="ParamRange" behaviour="26" hasCustomOutputPath="0">
+			<ShortcutPath name="InputPath" path="/composition/layers/1/master" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/*/master" translationType="1" allowedTranslationTypes="11"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="432345564227567616" value="0"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1777360183924" paramNodeName="ParamRange" behaviour="26" hasCustomOutputPath="1">
+			<ShortcutPath name="InputPath" path="/composition/tempocontroller/tempo" translationType="1" allowedTranslationTypes="1"/>
+			<ShortcutPath name="OutputPath" path="/composition/tempocontroller/tempo" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="432345564227567616" value="0"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1777360184023" paramNodeName="ParamRange" behaviour="26" hasCustomOutputPath="1">
+			<ShortcutPath name="InputPath" path="/composition/master" translationType="1" allowedTranslationTypes="1"/>
+			<ShortcutPath name="OutputPath" path="/composition/master" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="432345564227567616" value="0"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1777360183926" paramNodeName="ParamRange" behaviour="26" hasCustomOutputPath="1">
+			<ShortcutPath name="InputPath" path="/composition/video/opacity" translationType="1" allowedTranslationTypes="1"/>
+			<ShortcutPath name="OutputPath" path="/composition/video/opacity" translationType="1" allowedTranslationTypes="-1"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="432345564227567616" value="0"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1777360183928" paramNodeName="ParamRange" behaviour="26" hasCustomOutputPath="0">
+			<ShortcutPath name="InputPath" path="/composition/layers/4/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/*/video/opacity" translationType="1" allowedTranslationTypes="11"/>
+			<Subtarget type="5" optionIndex="-1"/>
+			<RawInputMessage key="432345564227567616" value="0"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1777360184016" paramNodeName="ParamEvent" behaviour="1050" hasCustomOutputPath="0">
+			<ShortcutPath name="InputPath" path="/composition/layers/1/clips/1/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="OutputPath" path="/composition/layers/*/clips/*/connect" translationType="1" allowedTranslationTypes="11"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/layers/1/clips/1/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/layers/*/clips/*/connected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="432345564227567616" value="0"/>
+		</Shortcut>
+		<Shortcut name="Shortcut" uniqueId="1777360183299" paramNodeName="ParamTrigger" behaviour="26" hasCustomOutputPath="0">
+			<ShortcutPath name="InputPath" path="/composition/columns/6/select" translationType="1" allowedTranslationTypes="35"/>
+			<ShortcutPath name="OutputPath" path="/composition/columns/*/select" translationType="1" allowedTranslationTypes="35"/>
+			<ShortcutPath name="InputSiblingPath" path="/composition/columns/6/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<ShortcutPath name="OutputSiblingPath" path="/composition/columns/*/selected" translationType="1" allowedTranslationTypes="-1"/>
+			<RawInputMessage key="432345564227567616" value="0"/>
+		</Shortcut>
+	</ShortcutManager>
+</OSCShortcutPreset>
+

@@ -1,0 +1,34 @@
+{
+  "id": "arena-osc",
+  "name": "Arena (osc-only)",
+  "shortname": "arena-osc",
+  "description": "Resolume Arena OSC module for Bitfocus Companion. All generic OSC features plus Arena-specific actions: clip/column triggering, layer opacity, BPM, preset slots, group columns, velocity encoders and more.",
+  "version": "1.4.2",
+  "license": "MIT",
+  "repository": "https://github.com/ElytaM/ARENA-OSC",
+  "bugs": "https://github.com/ElytaM/ARENA-OSC/issues",
+  "maintainers": [
+    {
+      "name": "community"
+    }
+  ],
+  "legacyIds": [],
+  "runtime": {
+    "type": "node22",
+    "api": "nodejs-ipc",
+    "apiVersion": "1.13.6",
+    "entrypoint": "../main.js"
+  },
+  "manufacturer": "Resolume",
+  "products": [
+    "Arena"
+  ],
+  "keywords": [
+    "Protocol",
+    "OSC",
+    "Resolume",
+    "Arena",
+    "VJ"
+  ],
+  "isPrerelease": false
+}
