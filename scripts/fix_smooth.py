@@ -1,5 +1,5 @@
 """
-Comprehensive fixes for arena-osc:
+One-time source migration for rendering and encoder behavior:
 1. imageBuffer -> base64 string (SDK v2 requirement)
 2. affectedProperties - add imageBuffer
 3. Velocity-aware smooth nudge replaces fixed _smoothFadeFromTo

@@ -1,5 +1,5 @@
 """
-Comprehensive cleanup script for arena-osc:
+One-time source migration for arena-osc:
 1. Remove lock/wait animation code
 2. Fix progress polling (don't reset override on reconnect)
 3. Change progress_polling_enabled default to false
