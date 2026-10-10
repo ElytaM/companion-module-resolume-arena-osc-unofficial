@@ -1,6 +1,6 @@
-# Arena OSC
+# Resolume Arena OSC — Unofficial Companion Module
 
-Модуль для управления Resolume Arena из Bitfocus Companion через OSC. Позволяет запускать клипы и колонки, сохранять их на кнопках и управлять параметрами с энкодеров.
+Неофициальный модуль для управления Resolume Arena из Bitfocus Companion через OSC. Позволяет запускать клипы и колонки, сохранять их на кнопках и управлять параметрами с энкодеров.
 
 ## Возможности
 
@@ -19,9 +19,9 @@
 
 Для текущей версии нужны **Bitfocus Companion 5** и **Resolume Arena с поддержкой OSC**. Модуль проверен с Arena 7.
 
-1. Скачайте `arena-osc-2.1.9.tgz` из [последнего релиза](https://github.com/ElytaM/ARENA-OSC/releases/latest).
+1. Скачайте `arena-osc-2.1.9.tgz` из [последнего релиза](https://github.com/ElytaM/companion-module-resolume-arena-osc-unofficial/releases/latest).
 2. В Companion откройте **Settings → Modules → Install from file** и выберите `.tgz`.
-3. Перезапустите Companion и добавьте подключение **resolume: arena (only osc)**.
+3. Перезапустите Companion и добавьте подключение **Resolume: Arena OSC (Unofficial)**.
 
 Для ручной установки в Windows скачайте `.zip` из того же релиза и распакуйте папку модуля в `%APPDATA%\companion\modules\` и перезапустите Companion.
 
@@ -54,7 +54,7 @@
 
 Миниатюра загружается при назначении клипа. Обновить её вручную можно через **PAINT → THUMB → слот**. Выбор цвета скрывает миниатюру, а инструмент очистки оформления удаляет цвет и изображение, сохраняя действие слота.
 
-Подробное описание панели, действий, переменных и OSC-команд — в [справке модуля](companion/HELP.md). История изменений находится на странице [релизов](https://github.com/ElytaM/ARENA-OSC/releases).
+Подробное описание панели, действий, переменных и OSC-команд — в [справке модуля](companion/HELP.md). История изменений находится на странице [релизов](https://github.com/ElytaM/companion-module-resolume-arena-osc-unofficial/releases).
 
 ## Если что-то не работает
 
@@ -64,7 +64,7 @@
 - **Не появляются миниатюры:** проверьте доступность REST API и REST thumbnail port.
 - **Высокая нагрузка на сеть:** отключите Enable real-time clip progress polling.
 
-Сообщить о проблеме можно в [Issues](https://github.com/ElytaM/ARENA-OSC/issues). Укажите версии Companion, Arena и модуля, настройки подключения без личных данных и шаги для повторения ошибки.
+Сообщить о проблеме можно в [Issues](https://github.com/ElytaM/companion-module-resolume-arena-osc-unofficial/issues). Укажите версии Companion, Arena и модуля, настройки подключения без личных данных и шаги для повторения ошибки.
 
 ## Сборка
 

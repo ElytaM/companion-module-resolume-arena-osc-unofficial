@@ -1,7 +1,7 @@
 {
   "name": "arena-osc",
   "version": "2.1.9",
-  "description": "Resolume Arena OSC module for Bitfocus Companion",
+  "description": "Unofficial Resolume Arena OSC module for Bitfocus Companion",
   "license": "MIT",
   "type": "commonjs",
   "main": "main.js",
@@ -26,5 +26,13 @@
   "overrides": {
     "ws": "^8.21.0",
     "colord": "^2.9.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElytaM/companion-module-resolume-arena-osc-unofficial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ElytaM/companion-module-resolume-arena-osc-unofficial/issues"
+  },
+  "homepage": "https://github.com/ElytaM/companion-module-resolume-arena-osc-unofficial#readme"
 }

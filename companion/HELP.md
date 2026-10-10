@@ -1,13 +1,13 @@
-# Arena OSC — справка
+# Resolume Arena OSC — справка
 
-Модуль для управления Resolume Arena из Bitfocus Companion через OSC. Здесь описаны настройки подключения, действия и инструменты панели. Установка и требования — в [README](https://github.com/ElytaM/ARENA-OSC#readme), изменения — в [релизах](https://github.com/ElytaM/ARENA-OSC/releases).
+Модуль для управления Resolume Arena из Bitfocus Companion через OSC. Здесь описаны настройки подключения, действия и инструменты панели. Установка и требования — в [README](https://github.com/ElytaM/companion-module-resolume-arena-osc-unofficial#readme), изменения — в [релизах](https://github.com/ElytaM/companion-module-resolume-arena-osc-unofficial/releases).
 
 ## Настройка
 
 1. В **Resolume Arena**: Preferences → OSC
    - **OSC Input port** — порт, на который Companion отправляет команды (по умолчанию **7000**)
    - **OSC Output / Feedback port** — порт, на котором Arena отправляет обратную связь (по умолчанию **7001**)
-2. Добавьте новое подключение в Companion — найдите **resolume: arena (only osc)**
+2. Добавьте новое подключение в Companion — найдите **Resolume: Arena OSC (Unofficial)**
 
 3. Введите **IP-адрес** компьютера с Arena. `127.0.0.1` работает только если Companion и Arena на **одном ПК**
 

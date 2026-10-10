@@ -2,13 +2,13 @@
   "$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
   "type": "connection",
   "id": "arena-osc",
-  "name": "resolume: arena (only osc)",
+  "name": "Resolume: Arena OSC (Unofficial)",
   "shortname": "arena-osc",
-  "description": "Control Resolume Arena over OSC: clip and column slots, encoders, playback feedback, two-machine control, and optional clip thumbnails.",
+  "description": "Unofficial Resolume Arena OSC module: clip and column slots, encoders, playback feedback, two-machine control, and optional clip thumbnails.",
   "version": "2.1.9",
   "license": "MIT",
-  "repository": "https://github.com/ElytaM/ARENA-OSC",
-  "bugs": "https://github.com/ElytaM/ARENA-OSC/issues",
+  "repository": "https://github.com/ElytaM/companion-module-resolume-arena-osc-unofficial",
+  "bugs": "https://github.com/ElytaM/companion-module-resolume-arena-osc-unofficial/issues",
   "maintainers": [
     {
       "name": "community"
